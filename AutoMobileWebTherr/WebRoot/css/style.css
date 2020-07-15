@@ -1,0 +1,512 @@
+a {
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+blockquote {
+    margin-top: .5rem;
+    padding: .5rem;
+    border-left: 5px solid rgb(133, 9, 138);
+    background-color: #f7f7f7;
+}
+
+.wrap {
+    margin-top: 56px;
+}
+
+.carousel-caption {
+    text-align: left;
+}
+
+/* 宣传轮播字体媒体查询 */
+@media(min-width: 300px) {
+    .carousel-caption h2 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption p {
+        font-size: .25rem;
+    }
+
+    .carousel-caption a {
+        font-size: .6rem;
+        margin-top: -1.2rem;
+    }
+
+    .carousel-caption.d-sm-block {
+        display: block !important;
+    }
+
+    .carousel-caption {
+        top: 5%;
+    }
+
+    .user-info .col-form-label {
+        text-align: left;
+    }
+}
+
+@media(min-width: 768px) {
+    .carousel-caption h2 {
+        font-size: 1.25rem;
+    }
+
+    .carousel-caption p {
+        font-size: .5rem;
+    }
+
+    .carousel-caption a {
+        font-size: .8rem;
+        margin-top: 0;
+    }
+
+    .carousel-caption {
+        top: 20%;
+    }
+
+    .user-info .col-form-label {
+        text-align: right;
+    }
+}
+
+@media(min-width: 992px) {
+    .carousel-caption h2 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .carousel-caption a {
+        font-size: 1rem;
+    }
+}
+
+@media(min-width: 1200px) {
+    .carousel-caption h2 {
+        font-size: 2rem;
+    }
+}
+
+.section-title {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-family: "华文行楷";
+}
+
+/* 保养部分样式 */
+.maintain {
+    background-color: rgb(245, 245, 245);
+}
+
+.maintain .card {
+    background-color: #FFF;
+    background-clip: border-box;
+    border: 1px solid #EFF2F7;
+    margin-bottom: .5rem;
+}
+
+.maintain .card:hover {
+    transform: translateY(-5%);
+    transition: all 0.2s ease;
+}
+
+.maintain .card a {
+    display: block;
+    color: #000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.maintain .card a:hover {
+    text-decoration: none;
+    box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+}
+
+.maintain .card a span {
+    display: block;
+    font-size: .8rem;
+    margin-top: .5rem;
+}
+
+/* iconfont 图标通用css */
+.icon {
+    width: 2em;
+    height: 2em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.header .container,
+.footer .container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.footer {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+/* 维修部份样式 */
+
+.carAccessories .card {
+    margin-bottom: 2rem;
+    border: 0px;
+}
+
+.carAccessories .card-img-top {
+    min-height: 10rem;
+}
+
+/* 文章部分样式 */
+.article {
+    background-color: rgb(245, 245, 245);
+}
+
+.article .media,
+.article-list .media {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.article .media:last-child,
+.article-list .media:last-child {
+    border: 0;
+}
+
+.media img {
+    width: 12rem;
+    height: 9rem;
+}
+
+.media a {
+    text-decoration: none;
+    color: #000;
+}
+
+.media a:hover {
+    color: rgb(57, 174, 228);
+}
+
+.media-link a {
+    color: rgb(78, 175, 219);
+    font-size: .8rem;
+}
+
+
+/* 多行文本溢出省略 */
+.text-clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+/* 三行文本溢出省略 */
+.text-three {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+/* 单行文本溢出省略 */
+.text-ellipsis {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+.evaluate a {
+    margin-top: 1rem;
+}
+
+/* 车主晒单部分 */
+.evaluate .card-body {
+    border-bottom: 1px solid #eee;
+}
+
+/* 评价样式 */
+.card-evaluate {
+    color: rgb(255, 251, 0);
+}
+
+.evaluate .card-img img {
+    width: 4rem;
+}
+
+/* 公告部分样式 */
+.announcement {
+    background-color: rgb(255, 255, 255);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* 登录页面样式 */
+.login {
+    background:
+        radial-gradient(black 15%, transparent 16%) 0 0,
+        radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+    background-color: #282828;
+    background-size: 16px 16px;
+}
+
+
+/* 预约页面样式 */
+.appointment-title {
+    font-size: 1.25rem;
+    border-left: .3rem solid rgb(214, 103, 12);
+    padding-left: .3rem;
+}
+
+.appointment-content {
+    background-color: #fafafa;
+}
+
+/* 选择车型步骤样式 */
+.choose-progress {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.choose-progress li {
+    padding: .8rem 2rem;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.choose-progress li {
+    background: #EFF2F7;
+    color: #000;
+}
+
+.choose-progress .show a,
+.choose-progress .show a:hover {
+    color: #fff;
+}
+
+.choose-progress li.show {
+    background-color: #007e33;
+}
+
+.brand .nav-link {
+    padding: .2rem .45rem !important;
+}
+
+.car-brand,
+.car-type,
+.car-config {
+    border: 1px solid rgb(238, 238, 238);
+    padding: 1rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: .5rem;
+}
+
+.car-brand:hover {
+    border: 1px solid red;
+}
+
+.car-brand img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.car-selected .alert {
+    padding: 0 0 0 1rem;
+    border-radius: 0;
+    margin-left: 1rem;
+    border: 2px solid red;
+    color: rgb(134, 134, 134);
+}
+
+.car-selected .close {
+    margin-left: 20px;
+    margin-top: -.1rem;
+}
+
+/* 保养项目样式 */
+.maintain-title {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.maintain-item {
+    padding: .5rem 1rem;
+    background-color: #FFF;
+    border: 1px solid rgb(221, 221, 221);
+    margin-bottom: .5rem;
+    font-size: .7rem;
+    cursor: pointer;
+}
+
+.maintain-item .icon {
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: -3px;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.maintain-check {
+    float: right;
+    margin-top: 3px;
+    color: rgb(7, 165, 28);
+}
+
+/* 选购产品样式 */
+.products-header {
+    padding: .5rem 1rem;
+}
+
+.products-footer {
+    padding: .5rem 0;
+}
+
+.products-header .col {
+    padding: 1rem;
+    background-color: #f8ecec;
+}
+
+.products-footer {
+    text-align: right;
+}
+
+.products-body {
+    margin-top: -1rem;
+    padding: .5rem 1rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.products-price {
+    padding-top: 5px;
+}
+
+.products-num {
+    border: 0;
+    background-color: rgb(250, 250, 250);
+}
+
+/* 车友晒单部分样式 */
+.breadcrumb {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #fff;
+    margin-bottom: 0px;
+}
+
+/* 文章部分样式 */
+.article-title {
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.like {
+    text-align: center;
+}
+
+.like i {
+    font-size: 5rem;
+    cursor: pointer;
+    color: rgb(197, 197, 197);
+    transform: rotate(12deg);
+}
+
+.like i:hover {
+    color: red;
+    transform: rotate(0deg);
+}
+
+/* 评论样式 */
+.review-item {
+    padding-bottom: .5rem;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.review-footer i {
+    cursor: pointer;
+    color: rgb(197, 197, 197);
+}
+
+/* 用户中心样式 */
+.center-menu .list-group-item {
+    padding: 0;
+}
+
+.center-menu .list-group a:hover,
+.center-menu .list-group .active {
+    color: red;
+}
+
+.list-group .nav-header {
+    padding: .6rem;
+    display: block;
+    font-weight: bold;
+    background-color: rgb(214, 103, 12);
+    color: #fff;
+}
+
+/* 消息通知提示红点 */
+.notice::after {
+    content: '';
+    width: .5rem;
+    height: .5rem;
+    display: block;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: -1.5rem;
+    margin-left: .6rem;
+}
+
+.message .card-body {
+    border: 1px solid #eee;
+}
+
+/* 我的车辆信息 */
+.vehicle .card-img-top {
+    height: 13rem;
+}
+
+.vehicle .card-img-overlay {
+    height: 13rem;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.vehicle .overlay:hover .card-img-overlay {
+    display: block;
+}
+
+.vehicle .card-img-overlay i {
+    margin-top: 4rem;
+}
+
+.add-card {
+    height: 25rem;
+}
+
+.add-card a {
+    font-size: 3rem;
+    color: rgb(143, 143, 143);
+    text-align: center;
+    line-height: 25rem;
+}
+
+.order .table {
+    margin-bottom: 0px;
+}
